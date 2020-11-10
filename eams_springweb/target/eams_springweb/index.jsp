@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<a href="product/findAll">查询所有商品</a>
+<a href="product/findAll.do">查询所有商品</a>
 
 </body>
 </html>

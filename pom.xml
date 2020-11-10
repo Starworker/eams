@@ -18,7 +18,8 @@
         <spring.security.version>5.0.1.RELEASE</spring.security.version>
     </properties>
 
-    <dependencies> <!-- spring -->
+    <dependencies>
+        <!-- spring -->
     <dependency>
     <groupId>org.aspectj</groupId>
     <artifactId>aspectjweaver</artifactId>
@@ -96,7 +97,15 @@
         <groupId>jstl</groupId>
         <artifactId>jstl</artifactId>
         <version>1.2</version>
-    </dependency> <!-- log start -->
+    </dependency>
+
+        <dependency>
+            <groupId>org.apache.taglibs</groupId>
+            <artifactId>taglibs-standard-impl</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+
+        <!-- log start -->
     <dependency>
         <groupId>log4j</groupId>
         <artifactId>log4j</artifactId>

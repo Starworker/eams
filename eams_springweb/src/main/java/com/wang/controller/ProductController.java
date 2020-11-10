@@ -16,7 +16,7 @@ public class ProductController {
     @Autowired
     private ProductServiceImpl productService;
 
-    @RequestMapping("/findAll")
+    @RequestMapping("/findAll.do")
     public ModelAndView findAll(){
         List<Product> products = productService.findAll();
         ModelAndView mv = new ModelAndView();

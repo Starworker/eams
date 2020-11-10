@@ -28,25 +28,25 @@
     <url-pattern>/</url-pattern>
   </servlet-mapping>
 
-  <!-- 配置 springMVC 编码过滤器 -->
-  <filter>
-  <filter-name>CharacterEncodingFilter</filter-name>
-  <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
-  <!-- 设置过滤器中的属性值 -->
-    <init-param>
-      <param-name>encoding</param-name>
-      <param-value>UTF-8</param-value>
-    </init-param>
-    <!-- 启动过滤器 -->
-    <init-param>
-      <param-name>forceEncoding</param-name>
-      <param-value>true</param-value>
-    </init-param>
-  </filter>
-  <!-- 过滤所有请求 -->
-  <filter-mapping>
-    <filter-name>CharacterEncodingFilter</filter-name>
-    <url-pattern>*.do</url-pattern>
-  </filter-mapping>
+<!--  &lt;!&ndash; 配置 springMVC 编码过滤器 &ndash;&gt;-->
+<!--  <filter>-->
+<!--  <filter-name>CharacterEncodingFilter</filter-name>-->
+<!--  <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>-->
+<!--  &lt;!&ndash; 设置过滤器中的属性值 &ndash;&gt;-->
+<!--    <init-param>-->
+<!--      <param-name>encoding</param-name>-->
+<!--      <param-value>UTF-8</param-value>-->
+<!--    </init-param>-->
+<!--    &lt;!&ndash; 启动过滤器 &ndash;&gt;-->
+<!--    <init-param>-->
+<!--      <param-name>forceEncoding</param-name>-->
+<!--      <param-value>true</param-value>-->
+<!--    </init-param>-->
+<!--  </filter>-->
+<!--  &lt;!&ndash; 过滤所有请求 &ndash;&gt;-->
+<!--  <filter-mapping>-->
+<!--    <filter-name>CharacterEncodingFilter</filter-name>-->
+<!--    <url-pattern>*.do</url-pattern>-->
+<!--  </filter-mapping>-->
 
 </web-app>
